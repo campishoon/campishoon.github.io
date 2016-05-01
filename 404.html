@@ -1,0 +1,13 @@
+---
+layout: post-classic-sidebar-right
+title: Ooops!
+permalink: /404.html
+---
+<div class="error">
+    <p>Something seems to have gone wrong here. Sorry about that</p>
+    <p>Maybe we can make up for it with some posts and then be friends again?</p>
+</div>
+
+{% for post in site.posts limit:12 %}
+    {% include article_index.html %}
+{% endfor %}

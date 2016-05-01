@@ -1,0 +1,13 @@
+
+/**
+ * Basic styling
+ */
+body {
+  #font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.8em;
+  line-height: 1.5;
+  font-weight: 500;
+  #color: #111;
+  #background-color: #fdfdfd;
+  #-webkit-text-size-adjust: 100%; }
+
